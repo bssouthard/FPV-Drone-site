@@ -1,0 +1,123 @@
+body {
+	font-size: 67.5%;
+	font-family: Tahoma, Geneva, sans-serif;
+	background: #39150C url(https://www.kiwiquads.co.nz/wp-content/uploads/iFlight-Titan-XL5-5-inch-FPV-Racing-Drone-4.jpg) no-repeat fixed  top center;
+	padding: 0;
+	margin: 0;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+}
+
+header {
+	padding: 2.5em 0 0.5em;
+	margin: 0 0 2.0em;
+    background: #39150C url(https://th.bing.com/th/id/R.0e44a23d2d85a71386e7b3dd5871b23b?rik=qTRUznY%2bz0hzNg&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2017%2f03%2f15%2f70870-clouds-sky-blue.jpg&ehk=qqnm8cA1XCg7zP8akVPMSzvbNkPTQqFp%2fFyzTv0x1t8%3d&risl=&pid=ImgRaw&r=0) center 0px;
+ }
+
+ h1{
+     font-size: 4em;
+ }
+
+ nav {
+	color: black;
+	font-size: 2em;
+	letter-spacing: 0.04em;
+	padding: 1.0em 1.0em 0.5em;
+	margin: 1.0em 0;
+    width: 100%;
+    text-align: center;
+ }
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin: 0;
+}
+nav li a, nav li a:visited {
+	text-decoration: none;
+	color: blue;
+	padding: 0.3em 0.6em;
+}
+nav li a:hover {
+	color: #C64322;
+	background-color: rgba(252,251,243,0.75);
+}
+
+.contentWrapper {
+	margin: 0 auto;
+	max-width: 1170px;
+	padding: 0 3.0em;
+}
+
+footer {
+	background-color: #e40404;
+	height: 25px;
+	font-size: 1.2em;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding: 1.5em 2.0em;
+	/*position: absolute;
+	bottom: -25px;
+	left: 0;*/
+}
+footer ul#menuFooter {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 0 0.6em;
+	padding: 0;
+}
+footer ul li {
+	display: inline-block;
+	padding: 0 0.7em 0 0;
+	margin: 0;
+}
+footer ul li::before {
+	content: "| ";
+	padding-right: 0.7em;
+}
+footer a, footer a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+section{
+    margin: 100 100em 100em 0;
+    width: 876px;
+    display: table;
+}
+
+section.whiteBoard {
+	/* background-color: rgba(252,251,243,0.7); */
+	background-color:lightslategray;
+	margin: 0 0 2.0em;
+	padding: 1.5em 0 2.0em 1.5em;
+	display: inline-table;
+	border-radius: 2em;
+	box-shadow: 1px 1px 5px #777;/* offset-x | offset-y | blur-radius | color */
+    text-align: center;
+    offset: auto;offset: 100px 300px;offset: none;
+}
+section div.panel{
+	float: left;
+	position: relative;
+	width: 250px;
+	margin: 0 0.5em 2.0em 0.5em;
+	padding: 1.0em;
+	background-color: #fff;
+	border: #ccc solid 1px;
+	border-radius: 0.6em;
+}
+section div.panel img.cheeseType {
+	width: 100%;
+}
